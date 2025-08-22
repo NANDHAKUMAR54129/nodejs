@@ -19,7 +19,7 @@ def calculate_age(birth_year, birth_month, birth_day):
 
     # Adjust age if the birthday hasn't occurred yet in the current year
     if (today.month, today.day) < (birthdate.month, birthdate.day):
-        age -= 1
+        age -= 3
     
     return age
 
